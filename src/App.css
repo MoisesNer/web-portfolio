@@ -1,0 +1,23 @@
+:root{
+    --primary: #EBBB00;
+    --secondary: #808080;
+    --third: red;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.loading{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 3rem;
+}
