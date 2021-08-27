@@ -7,9 +7,9 @@ import { ProjectProvider } from './context'
 
 ReactDOM.render(
   <ProjectProvider>
-    <Router>
+    {/* <Router> */}
       <App />
-    </Router>
+    {/* </Router> */}
   </ProjectProvider>,
 
   document.getElementById('root')
