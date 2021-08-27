@@ -40,7 +40,7 @@ const Dropdown = () => {
                     ))}
                 </div>
                 <div className="dropdown-btn-wrap">
-                    <button className='dropdown-button'>Contact Me</button>
+                    <button className='dropdown-button'onClick={closeMobileMenu}>Contact Me</button>
                 </div>
             </div>
         </div>

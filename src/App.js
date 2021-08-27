@@ -12,10 +12,6 @@ import Contact from './pages/Contact/Contact'
 import Error from './pages/Error/Error'
 import Project from './pages/Project/Project'
 
-// import { InfoData } from './data/InfoData';
-// import ProjectDetail from './pages/ProjectDetail/ProjectDetail'
-
-
 function App() {
 
   return (

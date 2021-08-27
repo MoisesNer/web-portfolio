@@ -19,7 +19,7 @@ function Navbar() {
     return (
         <div className={scrollNavBar ? 'navbar active' : 'navbar'}>
             <Link to='/'>
-                <img className='navbar-logo' src={logo} alt="moises nervus logo" />
+                <img className='navbar-logo' src={logo} alt="Moises Nervis logo" />
             </Link>
             <div className="nav-menu">
                 {menuData.map((item, index) => (
