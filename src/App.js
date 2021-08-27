@@ -24,7 +24,8 @@ function App() {
         <Route path='/about' exact component={About}/>
         <Route path='/contact' exact component={Contact}/>
           <Route path='/:slug' exact component={Project}/>
-        <Route component={Error}/>
+        {/* <Route component={Error}/> */}
+        <Route path='*' component={Error} />
       </Switch>
       <Footer/>
     </Router>
