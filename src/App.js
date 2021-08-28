@@ -25,9 +25,8 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/about' exact component={About} />
           <Route path='/contact' exact component={Contact}/>
-          {/* <Route path='/:slug' exact component={Project}/> */}
-          {/* <Route path='' component='' /> */}
-          {/* <Route path='' component=''/> */}
+          <Route path='/:slug' exact component={Project}/>
+          <Route path='' component='' />
           <Route path='*' component={ErrorPage} />
         </Switch>
         <Footer/>
